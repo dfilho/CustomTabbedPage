@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c:CustomTabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                    xmlns:local="clr-namespace:CustomTabbedPage.Views"
+                    xmlns:c="clr-namespace:CustomTabbedPage.Controls"
+                    Title="Tabbed Sample"
+                    BarBackgroundColor="Green"
+                    BarTextColor="White"
+                    UnselectedIconColor="White"
+                    SelectedIconColor="Red"
+                    x:Class="CustomTabbedPage.Views.TabbedView">
+    <c:CustomTabbedPage.Children>
+        <local:Page1View />
+        <local:Page2View />
+    </c:CustomTabbedPage.Children>
+</c:CustomTabbedPage>
